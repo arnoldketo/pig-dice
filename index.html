@@ -4,16 +4,18 @@
     <meta charset="utf-8">
     <title>Pig Dice</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
+    <!-- <link href="https://bootswatch.com/4/superhero/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>
+
   </head>
   <body>
+    <div class="container-fluid formbackground">
     <!-- header section -->
     <div class="container">
       <div class="row">
         <div class= "col-xs-12 col-md-12">
-          <h1>Pig Dice</h1>
+          <h1><bold>Pig Dice</bold></h1>
         </div>
       </div>
 
@@ -26,16 +28,18 @@
           <div id="form">
             <form>
               <div class="form-group">
-                <label for="input-name1">Enter your name </label>
+                <label for="input-name1"><bold>Enter your name</bold> </label>
                 <input id="input-name1" class="form-control" type="text">
+                <!-- <button type="submit" class="btn btn-primary" id="inputname1-btn">Enter</button> -->
               </div>
             </form>
           </div>
           <div id="form">
             <form>
               <div class="form-group">
-                <label for="input-name2">Enter your name </label>
+                <label for="input-name2"><bold>Enter your name</bold> </label>
                 <input id="input-name2" class="form-control" type="text">
+                  <button type="submit" class="btn btn-primary" id="inputname2-btn">Enter</button>
               </div>
             </form>
           </div>
@@ -44,20 +48,37 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-md-6">
+        <div class="col-xs-12 col-md-3 names">
+          <h2 class="player1Disp"></h2>
+          <h2 span class="player2Disp"></h2>
           <!-- display result -->
         </div>
-        <div class="col-xs-12 col-md-6">
-          <button type="submit" class="btn btn-default" id="player1-btn">Hold</button>
-          <button type="submit" class="btn btn-default" id="player1-btn">Roll</button>
+        <div class="col-xs-12 col-md-3 points">
+          <h3 class="player1disRoll"></h3>
+          <h3 class="player2disRoll"></h3>
+          <!-- display points -->
+        </div>
+        <div class="col-xs-12 col-md-3 points">
+          <h3 class="player1disScore">Score:</h3>
+          <h3 class="player2disScore">Score:</h3>
+          <h3 class="player1dispointsTotal">Total:</h3>
+          <h3 class="player1dispointsTotal">Total:</h3>
+          <!-- display points -->
+        </div>
+        <div class="col-xs-12 col-md-3 formbackground">
+          <button type="submit" class="btn btn-success" id="player1Hold">Hold</button>
+          <button type="submit" class="btn btn-warning" id="player1Roll">Roll</button>
           <h4>Player1</h4>
-          <button type="submit" class="btn btn-default" id="player2-btn">Hold</button>
-          <button type="submit" class="btn btn-default" id="player2-btn">Roll</button>
+          <button type="submit" class="btn btn-success" id="player2Hold">Hold</button>
+          <button type="submit" class="btn btn-warning" id="player2Roll">Roll</button>
           <h4>Player2</h4>
         </div>
 
       </div>
     </div>
+  </div>
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
 
   </body>
 </html>
