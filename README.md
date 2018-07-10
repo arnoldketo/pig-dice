@@ -7,7 +7,7 @@
 4.If the player presses hold then the round score is added to the points Total
 5.The first player to reach 100 is the winner.
 ## Setup/Installation Requirements
-Go to https://arnoldketo/github.io/pig-dice
+Go to https://arnoldketo.github.io/pig-dice
 ## Known Bugs
 There are no known bugs
 ## Technologies Used
