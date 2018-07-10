@@ -1,13 +1,13 @@
 # Pig Dice
 #### By Arnold Keto
 ## Description
-The programme takes in the two players' names
-Player1 then presses roll and a random number from 1 to 6 is returned
-If the player rolls a one then its player2's return
-If the player presses hold then the round score is added to the points Total
-The first player to reach 100 is the winner.
+1.The programme takes in the two players' names
+2.Player1 then presses roll and a random number from 1 to 6 is returned
+3.If the player rolls a one then its player2's return
+4.If the player presses hold then the round score is added to the points Total
+5.The first player to reach 100 is the winner.
 ## Setup/Installation Requirements
-Go to https://arnoldketo/github.io/pig-dice.git
+Go to https://arnoldketo/github.io/pig-dice
 ## Known Bugs
 There are no known bugs
 ## Technologies Used
