@@ -7,7 +7,7 @@ If the player rolls a one then its player2's return
 If the player presses hold then the round score is added to the points Total
 The first player to reach 100 is the winner.
 ## Setup/Installation Requirements
-Go to arnoldketo/github.io/pig-dice.git
+Go to https://arnoldketo/github.io/pig-dice.git
 ## Known Bugs
 There are no known bugs
 ## Technologies Used
