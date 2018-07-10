@@ -6,3 +6,9 @@
 background-image: url(../images/wallpaper2.jpg);
 font-family: 'Gaegu', cursive;
 }
+ .player1Disp {
+   display: none
+ }
+ .player2Disp {
+   display: none
+ }

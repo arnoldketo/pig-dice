@@ -1,7 +1,11 @@
 # Pig Dice
 #### By Arnold Keto
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+The programme takes in the two players' names
+Player1 then presses roll and a random number from 1 to 6 is returned
+If the player rolls a one then its player2's return
+If the player presses hold then the round score is added to the points Total
+The first player to reach 100 is the winner.
 ## Setup/Installation Requirements
 Go to arnoldketo/github.io/pig-dice.git
 ## Known Bugs
@@ -33,4 +37,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-  
